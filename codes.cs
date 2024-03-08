@@ -13,7 +13,7 @@ foreach ( var go in gameObjects ) {
 			}
 			
 			// end
-			StartIndex = 0;
+			StartIndex = 0;//launch
 			Debug.Log("ObjExport: saved .OBJ to " + fileName);
 			return fileName;
 		}
